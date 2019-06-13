@@ -1,0 +1,15 @@
+<suite name="myfirst" parallel='none'>
+<test name="sanity testing">
+<classes>
+<class name="practice.NewTest"/>
+<class name="practice.Sample  Test"/>
+
+
+
+
+</classes>
+
+</test>
+
+
+</suite>

@@ -1,0 +1,23 @@
+package test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class VerifyLoginPage {
+
+	public static void main(String[] args) throws Exception {
+		WebDriver wb =new FirefoxDriver();
+		wb.get("https://accounts.google.com");
+		Thread.sleep(4000);
+		boolean logostatus=wb.findElement(By.xpath("//div[@class='logo logo-w']")).isDisplayed();
+		System.out.println(logostatus);
+		String link=wb.findElement(By.xpath("//a[normalize-space(text())= 'Create account']")).getText();
+		System.out.println(link);
+		String btn=wb.findElement(By.xpath("//input[@id='next']")).getAttribute("value");
+		System.out.println(btn);
+
+
+	}
+
+}

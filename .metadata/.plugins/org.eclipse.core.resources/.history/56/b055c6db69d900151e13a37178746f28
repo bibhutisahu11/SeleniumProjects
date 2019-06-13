@@ -1,0 +1,26 @@
+package test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+
+public class HandlingDropDown {
+
+	public static void main(String[] args) throws Exception {
+		WebDriver wb=new FirefoxDriver();
+		wb.get("https://accounts.google.com");
+		Thread.sleep(4000);
+		wb.findElement(By.linkText("Create account")).click();
+		Thread.sleep(4000);
+		WebElement dropele=wb.findElement(By.xpath("//div[@id=':d']"));
+		Select selobj=new Select(dropele);
+		selobj.selectByVisibleText("Female");
+		
+	
+
+	}
+
+}

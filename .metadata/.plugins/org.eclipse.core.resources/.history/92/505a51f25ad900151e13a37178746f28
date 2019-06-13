@@ -1,0 +1,20 @@
+package test;
+import java.util.List;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LinksInCricInfo {
+
+	public static void main(String[] args) throws Exception {
+		WebDriver wb=new FirefoxDriver();
+		wb.get("http://www.espncricinfo.com/");
+		Thread.sleep(10000);
+		List<WebElement>colLinks=wb.findElements(By.xpath("//a"));
+		int lcount=colLinks.size();
+		System.out.println("Total links present"+lcount);
+
+	}
+
+}

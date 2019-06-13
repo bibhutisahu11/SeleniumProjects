@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="135" started-at="2016-03-02T13:18:54Z" finished-at="2016-03-02T13:18:54Z">
+    <groups>
+      <group name="sanityTest">
+        <method signature="Example1Test.sampleTest()[pri:0, instance:demo.Example1Test@44215571]" name="sampleTest" class="demo.Example1Test"/>
+      </group> <!-- sanityTest -->
+    </groups>
+    <test name="Test" duration-ms="135" started-at="2016-03-02T13:18:54Z" finished-at="2016-03-02T13:18:54Z">
+      <class name="demo.Example1Test">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:demo.Example1Test@44215571]" name="configBeforeclass" is-config="true" duration-ms="0" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforemethod()[pri:0, instance:demo.Example1Test@44215571]" name="configBeforemethod" is-config="true" duration-ms="1" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforemethod -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:demo.Example1Test@44215571]" name="sampleTest" duration-ms="2" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="configAftermethod()[pri:0, instance:demo.Example1Test@44215571]" name="configAftermethod" is-config="true" duration-ms="1" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAftermethod -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:demo.Example1Test@44215571]" name="configAfterclass" is-config="true" duration-ms="1" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- demo.Example1Test -->
+      <class name="demo.Example2Test">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:demo.Example2Test@6a0c282b]" name="configBeforeclass" is-config="true" duration-ms="36" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforemethod()[pri:0, instance:demo.Example2Test@6a0c282b]" name="configBeforemethod" is-config="true" duration-ms="1" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforemethod -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:demo.Example2Test@6a0c282b]" name="sampleTest" duration-ms="32" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="configAftermethod()[pri:0, instance:demo.Example2Test@6a0c282b]" name="configAftermethod" is-config="true" duration-ms="2" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAftermethod -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:demo.Example2Test@6a0c282b]" name="configAfterclass" is-config="true" duration-ms="1" started-at="2016-03-02T18:48:54Z" finished-at="2016-03-02T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- demo.Example2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

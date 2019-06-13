@@ -1,0 +1,25 @@
+package test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class AssertVerify {
+	@Test
+	public void verifyLogSuccessful() throws InterruptedException{
+		WebDriver wb=new FirefoxDriver();
+		wb.get("http://localhost:8080/login.do");
+		wb.findElement(By.name("username")).sendKeys("admin");
+		wb.findElement(By.name("pwd")).sendKeys("manag");
+		wb.findElement(By.xpath("//a[@id='loginButton']")).click();
+		Thread.sleep(4000);
+		WebElement we=wb.findElement(By.xpath("//span[normalize-space(text()='Username or Password is invalid. Please try again.')]"));
+		String actualText=we.getText();
+		String expText="Username or Password is invalid. Please try again.";
+		Assert.assertEquals(actualText, expText);
+	}
+
+}

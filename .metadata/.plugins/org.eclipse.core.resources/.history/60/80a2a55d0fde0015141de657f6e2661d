@@ -1,0 +1,29 @@
+package dragndrop;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class DragNDrop {
+
+	public static void main(String[] args) {
+		WebDriver wb=new FirefoxDriver();
+		wb.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		wb.get("http://www.flipkart.com/");
+		WebElement ele=wb.findElement(By.xpath("(//span[text()='Men'])[1]"));
+		Actions act=new Actions(wb);
+		act.contextClick(ele).perform();
+		act.sendKeys(Keys.ARROW_DOWN).perform();
+		act.sendKeys(Keys.ARROW_DOWN).perform();
+
+		act.sendKeys(Keys.ENTER);
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75" started-at="2016-03-21T15:13:27Z" finished-at="2016-03-21T15:13:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75" started-at="2016-03-21T15:13:27Z" finished-at="2016-03-21T15:13:27Z">
+      <class name="practice.NewTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:practice.NewTest@7f1a594c]" name="loginTest" is-config="true" duration-ms="23" started-at="2016-03-21T20:43:27Z" finished-at="2016-03-21T20:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="searchTest()[pri:1, instance:practice.NewTest@7f1a594c]" name="searchTest" duration-ms="12" started-at="2016-03-21T20:43:27Z" finished-at="2016-03-21T20:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="advSearchTest()[pri:2, instance:practice.NewTest@7f1a594c]" name="advSearchTest" duration-ms="2" started-at="2016-03-21T20:43:27Z" finished-at="2016-03-21T20:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advSearchTest -->
+        <test-method status="PASS" signature="buyProductsTest()[pri:3, instance:practice.NewTest@7f1a594c]" name="buyProductsTest" duration-ms="2" started-at="2016-03-21T20:43:27Z" finished-at="2016-03-21T20:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductsTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:practice.NewTest@7f1a594c]" name="logoutTest" is-config="true" duration-ms="0" started-at="2016-03-21T20:43:27Z" finished-at="2016-03-21T20:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- practice.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

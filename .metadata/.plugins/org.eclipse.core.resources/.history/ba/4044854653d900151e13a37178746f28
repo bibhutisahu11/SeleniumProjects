@@ -1,0 +1,20 @@
+package test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class CheckboxSelected {
+
+	public static void main(String[] args) throws Exception {
+WebDriver wb=new FirefoxDriver();
+wb.get("https://web.facebook.com/");
+Thread.sleep(4000);
+boolean cboxstatus=wb.findElement(By.xpath("//input[@id='persist_box']")).isSelected();
+System.out.println(cboxstatus);
+wb.close();
+
+
+	}
+
+}

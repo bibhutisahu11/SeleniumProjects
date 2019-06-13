@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14629" started-at="2016-03-03T07:17:48Z" finished-at="2016-03-03T07:18:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14629" started-at="2016-03-03T07:17:48Z" finished-at="2016-03-03T07:18:02Z">
+      <class name="demo.Login">
+        <test-method status="PASS" signature="LoginAndOutChrome()[pri:0, instance:demo.Login@10d8d767]" name="LoginAndOutChrome" duration-ms="14580" started-at="2016-03-03T12:47:48Z" finished-at="2016-03-03T12:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndOutChrome -->
+      </class> <!-- demo.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

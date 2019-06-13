@@ -1,0 +1,23 @@
+package test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LoginActitime {
+
+	public static void main(String[] args)  throws Exception {
+	WebDriver wb=new FirefoxDriver();
+	wb.get("http://localhost:8080/login.do");
+	wb.findElement(By.name("username")).sendKeys("admin");
+	wb.findElement(By.name("pwd")).sendKeys("manager");
+	wb.findElement(By.xpath("//a[@id='loginButton']")).click();
+	Thread.sleep(4000);
+	wb.findElement(By.xpath("//a[@id='logoutLink']"));
+	
+	
+	
+
+	}
+
+}
